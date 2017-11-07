@@ -52,3 +52,7 @@ src    | URL to your music source
 poster | URL to your image source
 name   | name of track
 artist | name of artist
+
+---
+
+Inspired by [vue-aplayer](https://github.com/SevenOutman/vue-aplayer)
