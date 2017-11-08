@@ -43,7 +43,7 @@ export default {
 key                | type           | required           | default    | description
 ---                | ---            | ---                | ---        | ---
 autoplay           | `Boolean`      |                    |            |
-dropDownMenuMode   | `String`       |                    | `bottom`   |
+dropDownMenuMode   | `String`       |                    | `bottom`   | Add a mode for the dropdown. Supported mode are `bottom`, `top`, and `none`.
 playlist           | `Array<Track>` | :white_check_mark: |            |
 playMode           | `String`       |                    | `listloop` | Apply a mode on the play cycle. Options: `listloop`, 'listrandom', and `singlecycle`
 showPlaylist       | `Boolean`      |                    |            |
