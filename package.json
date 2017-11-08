@@ -8,6 +8,7 @@
     "cplayer": "^3.1.6"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
     "rollup": "^0.50.0",
     "rollup-plugin-buble": "^0.17.0",
     "rollup-plugin-commonjs": "^8.2.6",
@@ -30,5 +31,10 @@
   ],
   "files": [
     "dist"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
