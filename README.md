@@ -2,6 +2,15 @@
 
 A simple vue wrapper for [cPlayer](https://github.com/MoePlayer/cPlayer).
 
+### Installation
+
+```bash
+# via npm
+npm i vue-cplayer --save-dev
+# or yarn
+yarn add vue-cplayer --dev
+```
+
 ### Usage
 
 __template__
